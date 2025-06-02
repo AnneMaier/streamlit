@@ -26,6 +26,5 @@ image_files = [
 
 selectbox_options_index = selectobx_option.index(your_option)
 image_file = image_files[selectbox_options_index]
-image = Image.open(folder + image_file)
 
-st.image(image, width=350, caption=your_option)
+st.image(image_file, width=350, caption=your_option)
