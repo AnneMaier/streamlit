@@ -18,7 +18,11 @@ st.sidebar.write('**당신의 선택** :', your_option)
 
 folder = './data/'
 
-image_files = ['1.png', '2.png', '3.png', '4.png']
+image_files = [
+    'https://github.com/AnneMaier/streamlit/blob/main/sidebar/data/1.png?raw=true', 
+    'https://github.com/AnneMaier/streamlit/blob/main/sidebar/data/2.png?raw=true',
+    'https://github.com/AnneMaier/streamlit/blob/main/sidebar/data/3.png?raw=true',
+    'https://github.com/AnneMaier/streamlit/blob/main/sidebar/data/4.png?raw=true']
 
 selectbox_options_index = selectobx_option.index(your_option)
 image_file = image_files[selectbox_options_index]
