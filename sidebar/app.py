@@ -9,7 +9,7 @@ user_id = st.sidebar.text_input('아이디(ID) 입력', value='root', max_chars=
 user_password = st.sidebar.text_input('패스워드(Password) 입력', value='1234', type='password')
 
 st.sidebar.header('셀렉트 박스 사용 예')
-selectobx_option = ['진주 귀걸이를 한 소녀', '별이 빛나는 밤', '절규', '월하정인']
+selectobx_option = ['절규', '월하정인', '진주 귀걸이를 한 소녀', '별이 빛나는 밤']
 your_option = st.sidebar.selectbox('좋아하는 작품은?', selectobx_option, index=3)
 st.sidebar.write('**당신의 선택** :', your_option)
 
